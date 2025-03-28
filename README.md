@@ -18,3 +18,16 @@ This project aims to detect fraudulent online payment transactions using machine
 - Evaluation & Optimization: Assessing model performance and tuning hyperparameters.
 
 - Deployment: Deploying the fraud detection model via API or a dashboard.
+
+# Technologies Used
+
+- Python (pandas, numpy, scikit-learn, imbalanced-learn, Flask/FastAPI for deployment)
+
+- Jupyter Notebook for data exploration and model training
+
+- Power BI/Tableau for visualization (optional)
+
+- MySQL/PostgreSQL for storing transaction data
+
+
+
