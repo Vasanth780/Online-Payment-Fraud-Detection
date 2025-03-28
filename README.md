@@ -7,7 +7,7 @@ This project aims to detect fraudulent online payment transactions using machine
 
 # Features
 
-- Data Preprocessing: Cleansing and transforming raw transaction data.
+- Data Preprocessing:  Cleansing and transforming raw transaction data.
 
 - Exploratory Data Analysis (EDA): Identifying fraud patterns using statistical and visualization techniques.
 
@@ -28,6 +28,25 @@ This project aims to detect fraudulent online payment transactions using machine
 - Power BI/Tableau for visualization (optional)
 
 - MySQL/PostgreSQL for storing transaction data
+
+# Installation
+
+- Clone the repository:
+
+- git clone https://github.com/your-repo/online-fraud-detection.git
+cd online-fraud-detection
+
+- Create and activate a virtual environment:
+
+- python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+
+- Install dependencies:
+
+- pip install -r requirements.txt
+
+
 
 
 
