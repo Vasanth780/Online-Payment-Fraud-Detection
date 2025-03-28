@@ -46,6 +46,46 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 - pip install -r requirements.txt
 
+# Dataset
+
+- The dataset used contains transaction details such as amount, location, timestamp, payment method, and fraud labels.
+
+- If using a public dataset, it can be obtained from Kaggle or other sources.
+
+#  Model Training
+
+1.Load and preprocess the dataset.
+
+2.Perform exploratory data analysis.
+
+3.Apply feature selection and engineering.
+
+4.Train models (Logistic Regression, Decision Tree, Random Forest, XGBoost, etc.).
+
+5.Evaluate performance using metrics such as precision, recall, F1-score, and AUC-ROC.
+
+6.Deploy the best-performing model.
+
+# Usage
+
+Run the model training script:
+
+python train_model.py
+
+To deploy the model using Flask:
+
+python app.py
+
+API endpoint for prediction:  POST /predict
+{
+  "transaction_details": {
+    "amount": 500.00,
+    "location": "New York",
+    "payment_method": "Credit Card"
+  }
+}
+
+
 
 
 
