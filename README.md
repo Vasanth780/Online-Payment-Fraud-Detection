@@ -66,24 +66,41 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 6.Deploy the best-performing model.
 
-# Usage
+# Evaluation Metrics
 
-Run the model training script:
+- Accuracy
 
-python train_model.py
+- Precision
 
-To deploy the model using Flask:
+- Recall
 
-python app.py
+- F1-Score
 
-API endpoint for prediction:  POST /predict
-{
-  "transaction_details": {
-    "amount": 500.00,
-    "location": "New York",
-    "payment_method": "Credit Card"
-  }
-}
+- AUC-ROC Curve
+
+# Future Enhancements
+
+- Implement deep learning techniques for better fraud detection.
+
+- Integrate real-time fraud detection.
+
+- Improve feature selection using advanced techniques.
+
+- Deploy a web dashboard for real-time monitoring.
+
+  # Contributing
+
+  Feel free to contribute by submitting issues or pull requests. For major changes, please open a discussion first.
+
+  # License
+
+  This project is licensed under the MIT License - see the LICENSE file for details.
+
+  
+
+
+
+
 
 
 
