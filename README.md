@@ -7,14 +7,14 @@ This project aims to detect fraudulent online payment transactions using machine
 
 # Features
 
-Data Preprocessing: Cleansing and transforming raw transaction data.
+- Data Preprocessing: Cleansing and transforming raw transaction data.
 
-Exploratory Data Analysis (EDA): Identifying fraud patterns using statistical and visualization techniques.
+- Exploratory Data Analysis (EDA): Identifying fraud patterns using statistical and visualization techniques.
 
-Feature Engineering: Creating meaningful features for better fraud detection.
+- Feature Engineering: Creating meaningful features for better fraud detection.
 
-Model Training: Implementing machine learning algorithms for classification.
+- Model Training: Implementing machine learning algorithms for classification.
 
-Evaluation & Optimization: Assessing model performance and tuning hyperparameters.
+- Evaluation & Optimization: Assessing model performance and tuning hyperparameters.
 
-Deployment: Deploying the fraud detection model via API or a dashboard.
+- Deployment: Deploying the fraud detection model via API or a dashboard.
